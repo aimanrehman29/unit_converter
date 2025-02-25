@@ -48,7 +48,7 @@ def convert_speed(value, from_unit, to_unit):
     return value * (speed_units[to_unit] / speed_units[from_unit])
 
 st.set_page_config(page_title="Unit Converter", layout="centered")
-st.title("🌟 Pro Unit Converter")
+st.title("🌟Converter")
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Length", "Weight", "Temperature", "Speed", "Currency"])
 
